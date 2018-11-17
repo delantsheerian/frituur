@@ -1,0 +1,40 @@
+#battleGround {
+  background-color: #FFF7BD;
+  width: 100%;
+  border: 1px dashed #FBB03B;
+}
+
+.player{
+  padding:100px 0;
+  width:49%;
+  float:left;
+}
+#player1,
+#player2{
+  overflow: hidden;
+  height: 100px;
+
+}
+#player1 {
+  border-right: 1px dashed #FBB03B;
+}
+.rock{
+  position: relative;
+  top: 0px;
+}
+.paper{
+  position: relative;
+  top: -102px;
+}
+.scissors{
+  position: relative;
+  top: -195px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
