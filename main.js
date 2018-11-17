@@ -1,7 +1,7 @@
-var frieten = window.parseFloat(prompt("Wilt u een groot pak, een klein of een mini?"));
+var maakKeuze = window.parseFloat(prompt("Wilt u een groot pak, een klein of een mini?"));
 var saus = window.parseFloat(prompt("Wilt u er saus bij?"));
 var drank = window.parseFloat(prompt("Wilt u er drank bij?"));
-var bedrag = frieten + saus + drank;
+var totaal = frieten + saus + drank;
 
-document.getElementById("totaal").innerHTML = ("Eindtotaal");
+document.getElementById("totaal").innerHTML = ("Het te betalen bedragen bedraagt : " + totaal);
 
